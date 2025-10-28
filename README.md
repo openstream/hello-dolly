@@ -1,6 +1,6 @@
 # Hello Dolly - WordPress Plugin Development Example
 
-This repository demonstrates the complete process of fixing a WordPress plugin to meet modern coding standards and WordPress.org requirements.
+This repository demonstrates the complete process of fixing a WordPress plugin to meet the official WordPress Coding Standards and WordPress.org requirements.
 
 ## 🎯 What This Repository Demonstrates
 
