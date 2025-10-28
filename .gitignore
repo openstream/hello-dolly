@@ -1,0 +1,74 @@
+# WordPress core files
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-admin/
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-includes/
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# WordPress config (contains sensitive info)
+/wp-config.php
+/wp-config-ddev.php
+
+# DDEV configuration (local environment)
+/.ddev/
+
+# WordPress content - ignore default plugins and themes
+/wp-content/plugins/akismet/
+/wp-content/plugins/hello.php
+/wp-content/plugins/index.php
+/wp-content/themes/twenty*/
+/wp-content/index.php
+
+# WordPress uploads and cache
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Composer
+/vendor/
+
+# Keep custom plugins (except plugin-check which is installed)
+!/wp-content/plugins/
+/wp-content/plugins/plugin-check/
+
+# Keep .claude directory
+!/.claude/
