@@ -12,7 +12,7 @@ Version: 1.7.3
 Author URI: http://ma.tt/
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: hello.php
+Text Domain: hello
 */
 
 // Do not load directly.
@@ -67,7 +67,7 @@ function hello_dolly() {
 
 	printf(
 		'<p id="dolly"><span class="screen-reader-text">%s </span><span dir="ltr"%s>%s</span></p>',
-		esc_html__( 'Quote from Hello Dolly song, by Jerry Herman:', 'hello.php' ),
+		esc_html__( 'Quote from Hello Dolly song, by Jerry Herman:', 'hello' ),
 		esc_attr( $lang ),
 		esc_html( $chosen )
 	);
